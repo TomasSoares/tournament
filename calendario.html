@@ -3,71 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Torneio</title>
+    <title>Torneio - Calendário</title>
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div class="topnav">
       <a href="index.html">Home</a>
       <a class="active" href="#">Calendário</a>
+      <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
     </div>
-    <table>
-      <tr>
-        <th>Data</th>
-        <th>Hora</th>
-        <th>Grupo</th>
-        <th>Jogo</th>
-        <th>Resultado</th>
-      </tr>
-      <tr>
-        <th>DD/MM/YYYY</th>
-        <th>HH:MM</th>
-        <th> A </th>
-        <th>Equipa 1 VS Equipa 2</th>
-        <th>0 - 0</th>
-      </tr>
-      <tr>
-        <th>DD/MM/YYYY</th>
-        <th>HH:MM</th>
-        <th> B </th>
-        <th>Equipa 3 VS Equipa 4</th>
-        <th>1 - 1</th>
-      </tr>
-      <tr>
-        <th>DD/MM/YYYY</th>
-        <th>HH:MM</th>
-        <th> C </th>
-        <th>Equipa 5 VS Equipa 6</th>
-        <th>2 - 2</th>
-      </tr>
-      <tr>
-        <th>DD/MM/YYYY</th>
-        <th>HH:MM</th>
-        <th> D </th>
-        <th>Equipa 7 VS Equipa 8</th>
-        <th>3 - 3</th>
-      </tr>
-      <tr>
-        <th>DD/MM/YYYY</th>
-        <th>HH:MM</th>
-        <th> E </th>
-        <th>Equipa 9 VS Equipa 10</th>
-        <th>4 - 4</th>
-      </tr>
-      <tr>
-        <th>DD/MM/YYYY</th>
-        <th>HH:MM</th>
-        <th> F </th>
-        <th>Equipa 11 VS Equipa 12</th>
-        <th>5 - 5</th>
-      </tr>
-      <tr>
-        <th>DD/MM/YYYY</th>
-        <th>HH:MM</th>
-        <th> G </th>
-        <th>Equipa 13 VS Equipa 14</th>
-        <th>6 - 6</th>
-      </tr>
-    </table>
+    <div class="container">
+      <h1>Calendário de Jogos</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Grupo</th>
+            <th>Jogo</th>
+            <th>Resultado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>HH:MM</td>
+            <td>A</td>
+            <td>Equipa 1 VS Equipa 2</td>
+            <td>0 - 0</td>
+          </tr>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>HH:MM</td>
+            <td>B</td>
+            <td>Equipa 3 VS Equipa 4</td>
+            <td>1 - 1</td>
+          </tr>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>HH:MM</td>
+            <td>C</td>
+            <td>Equipa 5 VS Equipa 6</td>
+            <td>2 - 2</td>
+          </tr>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>HH:MM</td>
+            <td>D</td>
+            <td>Equipa 7 VS Equipa 8</td>
+            <td>3 - 3</td>
+          </tr>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>HH:MM</td>
+            <td>E</td>
+            <td>Equipa 9 VS Equipa 10</td>
+            <td>4 - 4</td>
+          </tr>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>HH:MM</td>
+            <td>F</td>
+            <td>Equipa 11 VS Equipa 12</td>
+            <td>5 - 5</td>
+          </tr>
+          <tr>
+            <td>DD/MM/YYYY</td>
+            <td>HH:MM</td>
+            <td>G</td>
+            <td>Equipa 13 VS Equipa 14</td>
+            <td>6 - 6</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
