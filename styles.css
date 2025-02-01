@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #0044cc;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Navigation Bar */
+.topnav {
+    background-color: #0044cc;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    transition: all 0.3s;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ffcc00;
+    color: #0044cc;
+}
+
+.topnav .active {
+    background-color: #008000;
+}
+
+/* Table Styles */
+table {
+    width: 85%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 18px;
+    text-align: center;
+    font-size: 17px;
+}
+
+th {
+    background-color: #008b00;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #e8f5e9;
+}
+
+tr:hover {
+    background-color: #ffcc00 !important;
+    color: #0044cc;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Table Hover Effect */
+table:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Bold Specific Columns */
+th:first-child, td:first-child, 
+th:nth-child(2), td:nth-child(2), 
+th:nth-child(3), td:nth-child(3) {
+    font-weight: bold;
+}
