@@ -19,3 +19,8 @@ darkModeToggle.addEventListener('click', () => {
     darkModeToggle.textContent = '🌙';
   }
 });
+
+const currentYear = new Date().getFullYear();
+document.getElementById('current-year').textContent = currentYear;
+
+
