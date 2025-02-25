@@ -59,7 +59,7 @@ h1 {
 
 /* Table Styles */
 table {
-  width: 90%;
+  width: 100%;
   margin: 30px auto;
   border-collapse: collapse;
   background-color: white;
@@ -75,6 +75,15 @@ table:hover {
 
 th,
 td {
+  border: 1px solid #ddd;
+  padding: 18px;
+  text-align: center;
+  font-size: 17px;
+}
+
+th,
+td {
+width: 200px;
   border: 1px solid #ddd;
   padding: 18px;
   text-align: center;
@@ -136,20 +145,32 @@ tr:hover {
 
   .topnav a {
     margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
   }
 
   table {
     width: 100%;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
   th,
   td {
-    padding: 12px;
-    font-size: 14px;
+    padding: 8px;
+    font-size: 12px;
   }
 
-  h1 {
-    font-size: 28px;
+  .footer {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
   }
 }
 
