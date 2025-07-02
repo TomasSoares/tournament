@@ -136,6 +136,11 @@ tr:hover {
   cursor: pointer; /* Show pointer cursor on hover */
 }
 
+/* Day Divider */
+.day-divider {
+  border-top: 3px solid #0044cc !important;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .topnav {
